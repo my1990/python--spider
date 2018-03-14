@@ -1,7 +1,7 @@
 """
 浙大远程教育网站登录后可以看到自己的课程，但修改URL 课程kcdmb_id后，也可以看到其他人课程
 url = http://ycjy.scezju.com/xxpt/kc/kcIndexGetCd.action?kcdmb_id=34&user_id=232167&role_id=5
-本次就爬取所以课程，并保存下来,同时写入数据库
+本次就爬取所有课程，并保存下来,同时写入数据库
 """
 import re
 import requests
